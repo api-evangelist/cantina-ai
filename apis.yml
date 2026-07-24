@@ -1,22 +1,74 @@
 aid: cantina-ai
 name: Cantina AI
-description: Cantina AI is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cantina is a social AI platform founded by Sean Parker (Cantina Labs, San
+  Francisco) that lets people create AI-powered social characters that talk,
+  perform, and interact, then turn them into short videos to share and go viral.
+  The consumer product (cantina.com) centers on building characters with
+  personality, chatting with friends and AI, and generating video in seconds
+  across a public directory of trending bots and creators. Backed by a16z,
+  Benchmark, Greycroft, and Salesforce Ventures. Cantina is a consumer social
+  application and does not currently publish a public developer program, API,
+  SDK, or documentation surface; this profile captures its real public identity
+  and link properties while no external API is available to enrich.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65bac531cc5ce2c855d4fafe/6634304f95457cb4fdbf4306_Cantina%20OG.png
 url: https://raw.githubusercontent.com/api-evangelist/cantina-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Benchmark
+- Greycroft
+- Salesforce Ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Social
+- Consumer
+- AI Characters
+- Video Generation
+- Chatbots
+- Generative AI
+- Media and Entertainment
 apis: []
+common:
+- type: Website
+  url: https://cantina.com/
+- type: SignUp
+  url: https://cantina.com/signin
+- type: Login
+  url: https://cantina.com/signin
+- type: Support
+  url: https://support.cantina.com/hc
+- type: TermsOfService
+  url: https://cantina.com/terms
+- type: PrivacyPolicy
+  url: https://cantina.com/privacy
+- type: DomainSecurity
+  url: security/cantina-ai-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
