@@ -11,6 +11,17 @@ description: >-
   application and does not currently publish a public developer program, API,
   SDK, or documentation surface; this profile captures its real public identity
   and link properties while no external API is available to enrich.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
